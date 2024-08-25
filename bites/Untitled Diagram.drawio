@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" version="24.7.7">
+  <diagram name="Page-1" id="RiUD2C0IrTTnlHO4plzz">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="137" width="47" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Dating App" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="97" y="102" width="127" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="AI Engine" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="103" y="297" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="User Data" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="47" y="481" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Database" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="121" y="634" width="81" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Logs in" style="curved=1;startArrow=none;endArrow=block;exitX=0.16;exitY=0.99;entryX=0.25;entryY=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="111" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Sends preferences" style="curved=1;startArrow=none;endArrow=block;exitX=0.01;exitY=1;entryX=0;entryY=0.02;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Processes preferences" style="curved=1;startArrow=none;endArrow=block;exitX=0.11;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="89" y="446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Stores data" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.2;entryY=0;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="89" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Retrieves matches" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0;entryX=0.89;entryY=1;" edge="1" parent="1" source="6" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="232" y="600" />
+              <mxPoint x="232" y="446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Uses data to suggest matches" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.02;entryX=0.99;entryY=1;" edge="1" parent="1" source="4" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="256" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Shows matches" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0.85;entryY=0.99;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
